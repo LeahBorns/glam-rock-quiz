@@ -21,7 +21,8 @@ h1 {
 .currentQuestion {
     margin: auto;
     text-align: center;
-    display: inline-block;
+    max-width: 600px;
+    padding: 40px;
     background-color: #da5242;
     color: white;
     padding: 10px;
@@ -39,7 +40,7 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 600px;
-    height: 200px;
+    height: auto;
     padding: 40px;
     box-shadow: 3px 3px 3px #5e88ba;
     border: 1px solid black;
@@ -77,4 +78,8 @@ button:hover {
     margin-top: 15px;
     color: #1c7a92;
     font-weight: bold;
+}
+
+.option {
+    margin-right: 0.5rem;
 }
