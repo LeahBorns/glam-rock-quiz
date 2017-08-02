@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("https://www.mythic.press/wp-content/uploads/2016/01/David-Bowie-Stardust-Shirt.jpg") no-repeat left top 65px fixed;
+    background-size: fill;
+}
+
+.header {
+    margin: auto;
+}
+
+h1 {
+    margin: auto;
+    padding: 20px 0 20px 0;
+    width: 400px;
+    text-align: center;
+    text-shadow: 1px 1px #5e88ba;
+    color: #453535;
+}
+
+.currentScore,
+.currentQuestion {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    background-color: #da5242;
+    color: white;
+    padding: 10px;
+}
+
+.glamScores {
+    text-align: center;
+}
+
+.startingPage,
+.quizQuestion,
+.finalPage {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 600px;
+    height: 200px;
+    padding: 40px;
+    box-shadow: 3px 3px 3px #5e88ba;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.correctAnswer {
+    border: 2px solid #5e88ba;
+}
+
+span {
+    font-size: 15px;
+    margin: 0 10px 10px 0;
+    padding: 1px 5px 0 5px;
+    background-color: #da5242;
+    box-shadow: 2px 2px 2px #95291d;
+    color: white;
+    text-shadow: 1px 1px #888888;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    background-color: #1c7a92;
+    box-shadow: 2px 2px 2px #36567d;
+    color: white;
+    text-shadow: 1px 1px #888888;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #94afd1;
+}
+
+.resultAnswer {
+    margin-top: 15px;
+    color: #1c7a92;
+    font-weight: bold;
+}

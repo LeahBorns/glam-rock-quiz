@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Glam Rock Quiz</title>
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+
+    <header class="header" role="banner">
+        <div class="quizName">
+            <h1>Glam Rock Quiz</h1>
+        </div>
+        <div class="currentQuestion">
+            1/10
+        </div>
+        <div class="currentScore">
+            Score placeholder
+        </div>
+
+    </header>
+
+    <section>
+        <div class="startingPage">
+            <p class="">How well do you know your Glitter Rock? Click the button to find out!</p>
+            <button role="button">Start</button>
+        </div>
+    </section>
+    <section class="quizPage">
+        <div class="quizQuestion">
+            <p class="glamQuestion"><span>1 of 8</span> What year did french poet, Charles Piere Boudelaire coin the term modernity?</p>
+            <div class="choices">
+                <form role="form">
+                    <input class="option" type="radio" name="option" value="0" required>
+                    <br>
+                    <input class="option" type="radio" name="option" value="1" required>
+                    <br>
+                    <input class="option" type="radio" name="option" value="2" required>
+                    <br>
+                    <input class="option" type="radio" name="option" value="3" required>
+
+                </form>
+            </div>
+            <div class="submitSection">
+                <!--Score and question number -->
+                <button class="nextQuestion" type="submit">Next</button>
+            </div>
+            <div class="resultAnswer">CORRECT</div>
+        </div>
+    </section>
+
+    <section>
+        <div class="feedbackSection">
+            <!--selects correct answer with blue highlight Selects wrong answer with red highlight. Add number to score. Button to procede to next question. Jquery add incorrect class to option selected -->
+
+        </div>
+    </section>
+    <section>
+        <div class="finalPage">
+            <!--Shows final score and gives option to take again -->
+            <div class="finalScore">Score will go here...</div>
+            <p>You're a regular ol' dandy! Great job. Not satisfied with your results? Click the button to try again.</p>
+            <button class="resetQuiz" type="reset">Try it again</button>
+
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
