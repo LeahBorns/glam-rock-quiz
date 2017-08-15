@@ -17,6 +17,10 @@ h1 {
     color: #453535;
 }
 
+.choices ul li {
+    text-decoration: none;
+}
+
 .currentScore,
 .currentQuestion {
     margin: auto;

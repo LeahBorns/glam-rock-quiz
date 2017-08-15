@@ -34,21 +34,30 @@
         </div>
     </section>
     <section class="quizPage">
-        <div class="quizQuestion">
-            <p class="glamQuestion"><span>1 of 8</span> What year did french poet, Charles Piere Boudelaire coin the term modernity?</p>
-            <div class="choices">
-                <form role="form">
-                    <input class="option" type="radio" name="option" value="0" required>
-                    <br>
-                    <input class="option" type="radio" name="option" value="1" required>
-                    <br>
-                    <input class="option" type="radio" name="option" value="2" required>
-                    <br>
-                    <input class="option" type="radio" name="option" value="3" required>
 
-                </form>
-            </div>
-        </div>
+        <form>
+            <fieldset>
+                <div class="quizQuestion">
+                    <legend>
+                        <p aria-label="quiz_question" class="glamQuestion"><span>1 of 8</span> What year did french poet, Charles Piere Boudelaire coin the term modernity?</p>
+                    </legend>
+                    <div class="choices">
+                        <ul role="radiogroup" aria-label="radio_label">
+                            <li><input role="radio" class="option" type="radio" name="option" value="0" required></li>
+                            <br>
+                            <li><input role="radio" class="option" type="radio" name="option" value="1" required></li>
+                            <br>
+                            <li><input role="radio" class="option" type="radio" name="option" value="2" required></li>
+                            <br>
+                            <li><input role="radio" class="option" type="radio" name="option" value="3" required></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </fieldset>
+        </form>
     </section>
 
     <section>
