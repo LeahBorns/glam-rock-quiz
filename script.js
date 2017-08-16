@@ -77,7 +77,7 @@ function questionLayout() {
 
     //loop thru all the choices for each assigned question
     for (let i = 0; i < totalOptions; i++) {
-        var eachAnswerOption = "<input type='radio' class='option' name='option' value=" + i + "> " + myQuestions[currentQuestionNumber].glamAnswer[i] + "<br>";
+        var eachAnswerOption = "<input aria-label='radio_label' role='radio' type='radio' class='option' name='option' value=" + i + "> " + myQuestions[currentQuestionNumber].glamAnswer[i] + "<br>";
         //apply to choices div
         $('.choices').append(eachAnswerOption);
     }

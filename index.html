@@ -33,31 +33,29 @@
             <button class="startButton" role="button">Start</button>
         </div>
     </section>
-    <section class="quizPage">
+    <section role="form" class="quizPage">
 
-        <form>
-            <fieldset>
-                <div class="quizQuestion">
+
+        <div class="quizQuestion">
+            <form role="radiogroup">
+                <fieldset>
                     <legend>
                         <p aria-label="quiz_question" class="glamQuestion"><span>1 of 8</span> What year did french poet, Charles Piere Boudelaire coin the term modernity?</p>
                     </legend>
-                    <div class="choices">
-                        <ul role="radiogroup" aria-label="radio_label">
-                            <li><input role="radio" class="option" type="radio" name="option" value="0" required></li>
-                            <br>
-                            <li><input role="radio" class="option" type="radio" name="option" value="1" required></li>
-                            <br>
-                            <li><input role="radio" class="option" type="radio" name="option" value="2" required></li>
-                            <br>
-                            <li><input role="radio" class="option" type="radio" name="option" value="3" required></li>
-
-                        </ul>
+                    <div class="choices" id="radio_label">
+                        <input aria-label="radio_label" role="radio" class="option" type="radio" name="option" value="0" required>
+                        <br>
+                        <input aria-label="radio_label" role="radio" class="option" type="radio" name="option" value="1" required>
+                        <br>
+                        <input aria-label="radio_label" role="radio" class="option" type="radio" name="option" value="2" required>
+                        <br>
+                        <input aria-label="radio_label" role="radio" class="option" type="radio" name="option" value="3" required>
 
                     </div>
+                </fieldset>
+            </form>
+        </div>
 
-                </div>
-            </fieldset>
-        </form>
     </section>
 
     <section>
